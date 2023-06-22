@@ -306,7 +306,7 @@ header{
     /* body1 */
     
     .body1{
-        height: 120vh;
+        height: 120%;
         margin: 0 5%;
         max-width: 30%;
 
