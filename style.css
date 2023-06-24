@@ -215,13 +215,13 @@ header{
   }
 
    /* secondbody */
-  #secondbody{
+  #secondbody,#thirdbody{
     margin: 5%;
     width: 90%;
     display: block;
    }
 
-  #secondbody h3{
+  #secondbody h3,#thirdbody h3{
     font-size: 2rem;
     padding: 10px;
     border-bottom: 1px solid var(--text3);
@@ -234,7 +234,7 @@ header{
    }
 
    .scroll-1,.scroll-2,.scroll-3,.scroll-4,.scroll-5,
-   .scroll-6{
+   .scroll-6,.scroll-7,.scroll-8,.scroll-9{
     margin-bottom: 25%;
     width: 100%;
     box-shadow: 4px 4px 2px var(--text2);
@@ -259,11 +259,14 @@ header{
     color: var(--text5);
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
     cursor: pointer;
     right: 20px;
-    padding: 3%;
+    padding: 1%;
     background-color: var(--primary1);
-    font-size:25px;
+    font-size:20px;
+    object-fit: cover;
     border-radius: 10%;
     width: 50%;
    }
@@ -323,8 +326,8 @@ header{
      /* scroll */
      .scroll{
          display: grid;
-         height: 220px;
-         grid-template-columns: repeat(6,200px);
+         height: 170px;
+         grid-template-columns: repeat(9,200px);
          grid-template-rows: auto;
          gap: 7%;
          overflow-y: hidden;
@@ -432,7 +435,10 @@ header{
   .scroll-3:hover,
   .scroll-4:hover,
   .scroll-5:hover,
-  .scroll-6:hover {
+  .scroll-6:hover,
+  .scroll-7:hover,
+  .scroll-8:hover,
+    .scroll-9:hover {
     transform: scale(1.2);
     transition: 0.5s;
     transition: cubic-bezier(0.5, 0, 0.5, 1);
