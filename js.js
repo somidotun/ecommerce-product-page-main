@@ -5,7 +5,7 @@ let text ;
     if (person == null || person == ""){
     text = "user cancelled the prompt.";
     }else {
-    text = "welcome " + person +" to Sneakers. What type of shoe are you looking for?";
+    text = person + "," + " welcome to Sneakers. What type of shoe are you looking for?";
     }
 alert (text)
 
