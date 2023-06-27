@@ -1,13 +1,13 @@
 // prompt 
 
-let person = prompt("please enter your name")
-let text ;
-    if (person == null || person == ""){
-    text = "user cancelled the prompt.";
-    }else {
-    text = person + "," + " welcome to Sneakers. What type of shoe are you looking for?";
-    }
-alert (text)
+// let person = prompt("please enter your name")
+// let text ;
+//     if (person == null || person == ""){
+//     text = "user cancelled the prompt.";
+//     }else {
+//     text = person + "," + " Welcome to sneakers. What type of shoe are you looking for?";
+//     }
+// alert (text)
 
 
 // navigation bar

@@ -444,5 +444,10 @@ header{
     transition: cubic-bezier(0.5, 0, 0.5, 1);
      }
 
+     .scroll p:hover{
+        background-color: var(--text5);
+        color: var(--text6);
+     }
+
 
 }
