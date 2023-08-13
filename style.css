@@ -279,6 +279,10 @@ header{
 
    }
 
+   .scroll::-webkit-scrollbar{
+    display: none;
+   }
+
 
 
 
